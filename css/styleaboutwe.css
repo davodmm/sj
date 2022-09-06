@@ -1,0 +1,407 @@
+/* Color Palette ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+/*
+    SEA BLUE : #05668d (5,102,142)
+    METALLIC SEAWEED : #028090
+    PERSIAN GREEN : #00a896
+    CARIBBEAN GREEN : #02c39a
+    PALE SPRING BUD : #f0f3bd
+    #ffe169
+    #fad643
+    #edc531
+    #dbb42c
+    #c9a227
+    #b69121
+    #805b10
+    #76520e
+*/
+
+/* Genral Tags ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+* {
+  font-family: 'Roboto', 'Cairo';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: rtl;
+  margin: 0px;
+  position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lalezar';
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  padding: 30px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+/* Genral Classes ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+.section-heading {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(to right, #ffe169, #fad643, #edc531, #dbb42c, #c9a227, #b69121, #805b10, #76520e);
+  color: #f0f3bd;
+  padding: 5px 30px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #028090, #02c39a);
+}
+
+.btn i {
+  margin: 0px 5px;
+}
+
+.section-heading span {
+  display: inline-block;
+  padding-bottom: 15px;
+  width: 25%;
+  border-bottom: 2px solid #05668d;
+  color: #05668d;
+}
+
+.clear-both {
+  clear:both;
+}
+
+.bg-gradient {
+  background: #05668d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00a896, #05668d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00a896, #05668d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* nav ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+header > div.intro > h1 {
+  text-align: center;
+  color: White;
+}
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  padding-left: 100px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  color: #f0f3bd;
+  transition: 0.7s;
+}
+
+nav > ul > li:hover {
+  background-color: #d7a563;
+  color: Black;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav li i {
+  margin-left: 5px;
+}
+
+.dropdown-link {
+  position: relative;
+}
+
+.dropdown-link:hover > .dropdown-menu {
+  display: block;
+}
+
+div.dropdown-menu {
+  position: absolute;
+  background-color: #f0f3bd;
+  color: Black;
+  top: 70px;
+  width: 200px;
+  z-index : 1;
+  box-shadow: 5px 5px 20px grey;
+  display: none;
+}
+
+div.dropdown-menu > ul {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+}
+
+div.dropdown-menu > ul > li {
+  border-bottom: 1px solid grey;
+}
+
+div.dropdown-menu > ul > li > a {
+  display: block;
+  padding: 10px 25px;
+}
+
+div.dropdown-menu > ul > li > a:hover {
+  background-color: #05668d;
+  color: #f0f3bd;
+}
+
+.brand {
+  font-family: 'Roboto';
+  display: inline-block;
+  color: #f0f3bd;
+  padding: 20px;
+  font-size: 1.5em;
+  position: absolute;
+  left: 30px;
+}
+
+
+
+
+
+/* section ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+
+
+
+
+
+section > div.first > h1 {
+  display: inline-block;
+  position: relative;
+  right: 470px;
+  top: -500px;
+  font-size: 40px;
+}
+
+section.first > div.first {
+  background-color: rgba(75, 121, 173, 0.73);
+  text-align: center;
+  position: relative;
+  right: 100px;
+  top: 30px;
+  text-align: center;
+  border: 3px solid #04a614;
+  height: 2900px;
+  width: 1100px;
+}
+
+section {
+  text-align: center;
+}
+
+section > div.first > p {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  left: 60px;
+  padding: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 25px;
+  width: 900px;
+  background-color: rgba(199, 165, 55, 0.57);
+  font-family: Lateef;
+}
+
+
+
+section > div.second > p {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -2500px;
+  padding: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 25px;
+  width: 900px;
+  background-color: rgba(215, 72, 62, 0.57);
+  font-family: Lateef;
+}
+
+section > div.second > p#first {
+  display: inline-block;
+  position: relative;
+  top: -2000px;
+  font-size: 30px;
+  margin-bottom: 500px;
+  background-color: White;
+  border: 0px;
+}
+
+
+section.second > div.first > p {
+  text-align: center;
+  position: relative;
+  top: -2400px;
+  right: 15px;
+  font-size: 30px;
+  width: 600px;
+  background-color: White;
+  border: 0px;
+}
+
+section.second > div.first > p#ali {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 60px;
+  padding: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 25px;
+  width: 900px;
+  background-color: rgba(43, 198, 68, 0.5);
+  font-family: Lateef;
+}
+
+
+
+
+
+
+
+/* courses ↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+
+
+
+
+
+footer {
+  margin: 0px;
+  text-align: center;
+  color: #f0f3bd;
+  padding: 50px;
+  position: relative;
+}
+
+footer > div {
+  padding: 10px;
+}
+
+footer .follow-us i {
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+div.follow-us > a > img {
+  display: inline-block;
+  width: 50px;
+  margin: 0px 10px;
+  border-radius: 15px;
+}
+
+div.follow-us > a.a > img {
+  border-radius: 35px;
+}
+
+div.follow-us > a.b > img {
+  border-radius: 15px;
+}
+
+.back-to-top {
+  background-color: #f0f3bd;
+  border : 2px solid #05668d;
+  color: #05668d;
+  padding: 15px 20px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 75px;
+  right: 25px;
+}
+
+.copyright .aliseyfi {
+  float: left;
+  position: absolute;
+  top: 450px;
+  right: 1030px;
+  font-size: 25px;
+}
+
+.copyright a {
+  color: White;
+  padding-bottom : 5px;
+  border-bottom: 1px solid White;
+}
+
+ul.table {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  float: right;
+}
+
+ul.table > li.qwer {
+  display: inline-block;
+  font-size: 28px;
+  list-style-type: none;
+  position: relative;
+  top: -30px;
+  left: 50px;
+}
+
+ul.table > li {
+  font-size: 20px;
+}
+
+span.callme {
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+}
+
+ul.table2 > li.qwer2 {
+  display: inline-block;
+  font-size: 28px;
+  list-style-type: none;
+  position: relative;
+  top: -30px;
+  left: 300px;
+}
+
+ul.table2 > li {
+  margin-right: 400px;
+  font-size: 20px;
+}
+
+ul.table2 {
+  position: relative;
+  top: 50px;
+}
+
+li.a {
+  width: 250px;
+}
