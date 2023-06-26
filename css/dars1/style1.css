@@ -1,0 +1,290 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 20px;
+  margin: 0%;
+}
+
+#nav {
+  margin: 0%;
+}
+
+#name {
+  font-family: Noto Nastaliq Urdu;
+  color: #e37211;
+  float: left;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-left: 3%;
+}
+
+#nav ul {
+  font-size: 20px;
+  font-size: 1.1em;
+  font-family: Lalezar;
+  padding: 0em;
+  margin: 0em;
+}
+
+#nav h1 {
+  margin: 0% 2%;
+  font-size: 1.3em;
+  float: left;
+  display: inline-block;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#nav ul li {
+  list-style-type: none;
+  font-size: 1.2em;
+  color: black;
+  padding: 0.5em 1.1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav ul li:hover {
+  background-color: rgba(198, 36, 181, 0.65);
+  transition: 0.9s;
+}
+
+#nav ul a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* section1 */
+
+
+
+
+
+
+#section1 {
+  width: 58vw;
+  float: right;
+}
+
+#section1 h1 {
+  text-align: center;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#section1 div.download h1 {
+  font-family: Katibeh;
+  border-radius: 0.7em;
+  border: 3px solid black;
+  display: inline-block;
+  padding: 4%;
+  margin: 5% 16%;
+  background: #603813;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b29f94, #985920, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b29f94, #985920, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section1 div.download1 h1 {
+  font-family: Katibeh;
+  border-radius: 0.7em;
+  border: 3px solid black;
+  display: inline-block;
+  padding: 2.6%;
+  margin: 1.2% 16%;
+  background: #603813;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #94b397, #209821, #13601b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #94b397, #209821, #13601b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section1 div.download1 h1:hover {
+  background: #603813;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #94b397, #209821, #13601b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #94b397, #209821, #13601b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section1 div.download h1:hover {
+  background: #603813;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #b29f94, #985920, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #b29f94, #985920, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#section1 hr {
+  border: 0.1em solid black;
+  margin: 3%;
+}
+
+#section1 div.download a {
+  text-decoration: none;
+}
+
+
+
+/* aside */
+
+
+
+
+
+
+
+
+
+#aside {
+  background: #3D7EAA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFE47A, rgb(151, 153, 70), rgb(170, 226, 11), #aa783d, #d66716);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFE47A, rgb(151, 153, 70), rgb(170, 226, 11), #aa783d, #d66716); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  font-family: Mirza;
+  width: 38vw;
+  height: 140vh;
+  margin: 7% 1%;
+  border-radius: 1.2em;
+  float: left;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#imageaside {
+  width: 35vw;
+  display: inline-block;
+  float: left;
+  margin: 4% 4%;
+}
+
+#aside h1 {
+  margin: 6%;
+  padding: 3%;
+  border-radius: 1em;
+  text-align: center;
+  background: #348F50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4fbead, #56B4D3, #348F50, #137303);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4fbead, #56B4D3, #348F50, #137303); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#aside div.app {
+  text-align: center;
+}
+
+#aside div.app h1 {
+  background: #FC354C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: inline-block;
+  padding: 3% 7%;
+  border-radius: 0.4rem;
+  font-size: 1.5em;
+}
+
+#aside div.app div {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 4% 10%;
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 4%;
+  color: blue;
+}
+
+#aside div.app a{
+  text-decoration: none;
+}
+
+#aside div.app div:hover {
+  font-size: 2.5rem;
+  padding: 2%;
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 2%;
+  font-family: Katibeh;
+  margin-top: 170vh;
+  background: #414d0b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d2e222, #c6d51d, #96a11f, #666e15);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #d2e222, #c6d51d, #96a11f, #666e15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer ul.ul {
+  padding-left: 0.5%;
+  display: inline-block;
+  border-left: 2px solid black;
+}
+
+footer ul.ul a {
+  color: #000aff;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+footer ul.ul a:hover {
+  transition: 0.5s;
+  color: #d72121;
+}
+
+footer div.callme {
+  padding-left: 0.5%;
+  border-left: 2px solid black;
+  float: left;
+  display: inline-block;
+  margin: 0% 3%;
+  font-size: 1.6rem;
+}
+
+footer div.callme h3 {
+  border-bottom: 4px solid black;
+}
+
+footer div.callwe {
+  border-left: 2px solid black;
+  padding-left: 0.5%;
+  display: inline-block;
+  margin: 0% 5%;
+  width: 33vw;
+}
+
+footer div.callwe h2 {
+  border-bottom: 4px solid black;
+}
+
+footer div.callwe ul li {
+  font-size: 1.4em;
+}
+
+footer b.b {
+  text-decoration: underline;
+  color: #161ee4;
+}

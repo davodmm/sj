@@ -1,0 +1,251 @@
+
+
+#name {
+  font-size: 1.3rem;
+  margin: 0.3em 0em 1em 0em;
+  float: none;
+  text-align: center;
+}
+
+#nav .nav ul li {
+  padding: 2%;
+  font-size: 1.1em;
+  display: block;
+  text-align: center;
+}
+
+#nav .nav ul li.li {
+  width: 44vw;
+  display: inline-block;
+}
+
+#imagemark {
+  display: none;
+}
+
+#imageheader {
+  width: 50vw;
+}
+
+marquee.h3 {
+  display: none;
+}
+
+.h33 {
+  text-align: center;
+  margin: 2% 13%;
+  font-size: 1.3em;
+  font-family: Lateef;
+  display: inline-block;
+}
+
+#header div.first {
+  display: none;
+}
+
+#header div.first {
+  font-size: 1em;
+  width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+/* section */
+
+
+
+
+
+
+
+
+section {
+  width: 95vw;
+  float: none;
+}
+
+section.second div.lessons h3 {
+  width: 80vw;
+}
+
+section.second div.lessons h3:hover{
+  width: 80vw;
+}
+
+section.first div.first {
+  width: 70vw;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+
+/* aside */
+
+
+
+
+
+
+
+#aside {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* asidephone */
+
+
+
+
+
+
+
+
+
+
+#phone {
+  margin-top: 20vh;
+  display: inline-block;
+}
+
+#phone div.first {
+  font-family: Lalezar;
+}
+
+#phone div.first h1 {
+  margin: 5% 7% 5% 5%;
+  padding: 3%;
+  width: 80vw;
+  font-size: 1.2em;
+  border-radius: 1em;
+  text-align: center;
+  background: #348F50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4fbead, #56B4D3, #348F50, #137303);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4fbead, #56B4D3, #348F50, #137303); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#phone div.first img.imagephoneaside {
+  width: 90vw;
+  margin-right: 4%;
+}
+
+#phone div.second {
+  font-family: Lateef;
+}
+
+#phone div.second ul li {
+  font-size: 1.4em;
+}
+
+#phone div.second h3 {
+  text-align: center;
+  background: #FC354C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: inline-block;
+  padding: 3% 7%;
+  border-radius: 0.4rem;
+  font-size: 1.5em;
+  margin: 10% 27%;
+}
+
+#phone div.three {
+  font-family: Mirza;
+}
+
+#phone div.three h1 {
+  text-align: center;
+  background: #FC354C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: inline-block;
+  padding: 3% 7%;
+  border-radius: 0.4rem;
+  font-size: 1.5em;
+  margin: 10% 14%;
+}
+
+#phone div.three a {
+  text-decoration: none;
+}
+
+#phone div.three div {
+  margin: 4%;
+  border-radius: 5em;
+  padding: 4%;
+  font-size: 1.6em;
+  text-align: center;
+  background: #283048;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+footer {
+  margin-top: 0%;
+}
+
+footer ul.ul {
+  display: block;
+  border: 0px;
+  text-align: center;
+  list-style-type: none;
+}
+
+footer div.callme {
+  display: block;
+  border: 0px;
+  margin: 7%;
+}
+
+footer div.callwe {
+  display: block;
+  border: 0px;
+  margin: 7%;
+  width: 80vw;
+}
+
+footer div.callwe ul li {
+  font-size: 1.2em;
+}
+
+b.b {
+  font-weight: 100;
+}
+
+footer h3 {
+  margin: 5% 15% 5% 5%;
+  font-size: 1em;
+}

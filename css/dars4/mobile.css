@@ -1,0 +1,37 @@
+
+
+body {
+  font-size: 20px;
+  margin: 0%;
+}
+
+#header {
+  position: relative;
+  bottom: 0.4em;
+}
+
+#header ul {
+  margin-right: 0.2em;
+}
+
+#header ul li {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  border-bottom: none;
+  display: block;
+  padding: 2% 15%;
+}
+
+#header ul li:hover {
+  color: white;
+  background: rgba(0, 18, 252, 0.24);
+  transition: 0.7s;
+}
+
+#name {
+  margin: 0.3em 0em 1em 0em;
+  float: none;
+  text-align: center;
+}

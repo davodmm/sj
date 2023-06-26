@@ -1,0 +1,143 @@
+
+#name {
+  font-size: 1.3rem;
+  margin: 0.3em 0em 1em 0em;
+  float: none;
+  text-align: center;
+}
+
+#nav ul li {
+  padding: 2%;
+  font-size: 1.1em;
+  width: 44vw;
+  display: inline-block;
+  text-align: center;
+}
+
+#nav .nav ul li.li {
+  width: 44vw;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+/* header */
+
+
+
+
+
+
+
+
+#section1 {
+  text-align: center;
+  width: 90vw;
+}
+
+#section1 h1 {
+  font-size: 1em;
+}
+
+#section1 div.download h1 {
+  margin: 2% 4%;
+  width: 80vw;
+  font-size: 1.2em;
+}
+
+
+
+
+
+
+
+
+/* aside */
+
+
+
+
+
+
+
+
+#aside {
+  background-color: none;
+  height: 120vh;
+  border: 0px;
+  font-size: 15px;
+  width: 87vw;
+  margin: 0% 6%;
+
+}
+
+#aside div.app div {
+  font-size: 1.7em;
+}
+
+#aside div.app div:hover{
+  font-size: 1.5em;
+  padding: 3%;
+}
+
+#imageaside {
+  width: 80vw;
+}
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+footer {
+  margin-top: 200vh;
+}
+
+footer ul.ul {
+  display: block;
+  border: 0px;
+  text-align: center;
+  list-style-type: none;
+}
+
+footer div.callme {
+  display: block;
+  border: 0px;
+  margin: 7%;
+}
+
+footer div.callwe {
+  display: block;
+  border: 0px;
+  margin: 7%;
+  width: 80vw;
+}
+
+footer div.callwe ul li {
+  font-size: 1.2em;
+}
+
+b.b {
+  font-weight: 100;
+}
+
+footer h3 {
+  margin: 5% 15% 5% 5%;
+  font-size: 1em;
+}

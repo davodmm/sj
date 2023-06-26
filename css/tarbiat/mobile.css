@@ -1,0 +1,124 @@
+
+#name {
+  font-size: 1.3rem;
+  margin: 0.3em 0em 1em 0em;
+  float: none;
+  text-align: center;
+}
+
+#nav ul li {
+  padding: 2%;
+  font-size: 1.1em;
+  width: 44vw;
+  display: inline-block;
+  text-align: center;
+}
+
+#nav .nav ul li.li {
+  width: 44vw;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+
+
+
+
+
+
+
+
+
+
+
+
+#app h1 {
+  font-size: 1em;
+  width: 50vw;
+  margin: 0% 20%;
+}
+
+#app p {
+  margin: 5% 2%;
+  font-size: 0.9em;
+}
+
+#app h3 {
+  font-size: 1em;
+  font-family: Amiri;
+  margin: 0% 2%;
+}
+
+#app img {
+  width: 90vw;
+  margin: 2% -2%;
+}
+
+#app video {
+  width: 90vw;
+  margin: 2% -2%;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+footer {
+  margin: 0%;
+}
+
+footer ul.ul {
+  display: block;
+  border: 0px;
+  text-align: center;
+  list-style-type: none;
+}
+
+footer div.callme {
+  display: block;
+  border: 0px;
+  margin: 7%;
+}
+
+footer div.callwe {
+  display: block;
+  border: 0px;
+  margin: 7%;
+  width: 80vw;
+}
+
+footer div.callwe ul li {
+  font-size: 1.2em;
+}
+
+b.b {
+  font-weight: 100;
+}
+
+footer h3 {
+  margin: 5% 15% 5% 5%;
+  font-size: 1em;
+}

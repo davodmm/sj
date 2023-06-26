@@ -1,0 +1,190 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 20px;
+  margin: 0%;
+}
+
+#nav {
+  margin: 0%;
+}
+
+#name {
+  font-family: Noto Nastaliq Urdu;
+  color: #e37211;
+  float: left;
+  font-size: 1.2em;
+  font-weight: 800;
+  margin-left: 3%;
+}
+
+#nav ul {
+  font-size: 20px;
+  font-size: 1.1em;
+  font-family: Lalezar;
+  padding: 0em;
+  margin: 0em;
+}
+
+#nav h1 {
+  margin: 0% 2%;
+  font-size: 1.3em;
+  float: left;
+  display: inline-block;
+  font-family: Noto Nastaliq Urdu;
+}
+
+#nav ul li {
+  list-style-type: none;
+  font-size: 1.2em;
+  color: black;
+  padding: 0.5em 1.1em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav ul li:hover {
+  background-color: rgba(198, 36, 181, 0.65);
+  transition: 0.9s;
+}
+
+#nav ul a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+
+
+
+
+
+
+
+#app {
+  font-family: Verdana;
+  text-align: center;
+  margin: 5%;
+}
+
+#app p {
+  margin: 5% 8%;
+  font-size: 1.3em;
+  font-family: Amiri;
+}
+
+#app h3 {
+  background: rgba(79, 145, 77, 0.54);
+  border-radius: 24px;
+  padding: 2%;
+  margin: 4% 10%;
+  font-family: Jomhuria;
+  font-size: 2em;
+}
+
+#app h1 {
+  font-family: Noto Nastaliq Urdu;
+  border-bottom: 2px solid red;
+  margin: 2% 35%;
+}
+
+#app img {
+  width: 35vw;
+  float: left;
+}
+
+#app video {
+  width: 43vw;
+}
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 2%;
+  font-family: Katibeh;
+  margin-top: 100vh;
+  background: #414d0b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #d2e222, #c6d51d, #96a11f, #666e15);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #d2e222, #c6d51d, #96a11f, #666e15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer ul.ul {
+  padding-left: 0.5%;
+  display: inline-block;
+  border-left: 2px solid black;
+}
+
+footer ul.ul a {
+  color: #000aff;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+footer ul.ul a:hover {
+  transition: 0.5s;
+  color: #d72121;
+}
+
+footer div.callme {
+  padding-left: 0.5%;
+  border-left: 2px solid black;
+  float: left;
+  display: inline-block;
+  margin: 0% 3%;
+  font-size: 1.6rem;
+}
+
+footer div.callme h3 {
+  border-bottom: 4px solid black;
+}
+
+footer div.callwe {
+  border-left: 2px solid black;
+  padding-left: 0.5%;
+  display: inline-block;
+  margin: 0% 5%;
+  width: 33vw;
+}
+
+footer div.callwe h2 {
+  border-bottom: 4px solid black;
+}
+
+footer div.callwe ul li {
+  font-size: 1.4em;
+}
+
+footer b.b {
+  text-decoration: underline;
+  color: #161ee4;
+}
